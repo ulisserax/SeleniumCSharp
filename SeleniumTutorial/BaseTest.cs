@@ -22,7 +22,7 @@ namespace SeleniumTutorial.BaseClass
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Url = "https://www.facebook.com/";
+            driver.Url = "https://www.youtube.com/";
         }
         [TearDown] //Same idea for OneTimeTear and TearDown when considering start and end point of the test
         public void Close()
